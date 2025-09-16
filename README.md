@@ -3,7 +3,7 @@ Assignment
 
 # 🛠️ Installation
 1. Clone the repository
-git clone https://github.com/azlinda76/
+git clone https://github.com/azlinda76/PosMalaysia.git
 
 2. Navigate to project folder
 cd cypress-automation
