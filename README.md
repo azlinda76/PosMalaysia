@@ -1,7 +1,7 @@
 # PosMalaysia
 Assignment
 
-🛠️ Installation
+# 🛠️ Installation
 1. Clone the repository
 git clone https://github.com/azlinda76/
 
@@ -11,7 +11,7 @@ cd cypress-automation
 3. Install dependencies
 npm install
 
-📂 Project Structure
+# 📂 Project Structure
 cypress-automation/
 │── cypress/
 │   ├── e2e/             # Test cases
@@ -23,7 +23,7 @@ cypress-automation/
 │── package.json         # Dependencies
 │── README.md            # Project documentation
 
-▶️ Running Tests
+# ▶️ Running Tests
 1. Run all tests in headless mode
 npx cypress run
 
@@ -33,7 +33,7 @@ npx cypress open
 3. Run specific test file
 npx cypress run --spec "cypress/e2e/calculaterate.cy.js"
 
-📊 Reports
+# 📊 Reports
 
 📸 Screenshots → cypress/screenshots
 🎥 Videos → cypress/videos
