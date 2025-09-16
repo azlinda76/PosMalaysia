@@ -6,7 +6,7 @@ Assignment
 git clone https://github.com/azlinda76/PosMalaysia.git
 
 2. Navigate to project folder
-cd cypress-automation
+cd pos-malaysia
 
 3. Install dependencies
 npm install
