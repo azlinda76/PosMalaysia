@@ -1,4 +1,4 @@
-# LindaPosMalaysia
+# PosMalaysia
 Assignment
 
 🛠️ Installation
