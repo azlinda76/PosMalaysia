@@ -18,7 +18,7 @@ cypress-automation/
 │   ├── fixtures/        # Test data (JSON)
 │   ├── pages/           # Page Object files
 │   ├── support/         # Custom commands & hooks
-│── reports/             # Test reports
+|   ├── video/           # Test recording
 │── cypress.config.js    # Cypress configuration
 │── package.json         # Dependencies
 │── README.md            # Project documentation
@@ -33,8 +33,13 @@ npx cypress open
 3. Run specific test file
 npx cypress run --spec "cypress/e2e/calculaterate.cy.js"
 
+4. Run test by browser by specific test file
+npx cypress run --spec "cypress/e2e/calculaterate.cy.js" --browser chrome
+npx cypress run --spec "cypress/e2e/calculaterate.cy.js" --browser firefox
+npx cypress run --spec "cypress/e2e/calculaterate.cy.js" --browser edge
+  
+   
 # 📊 Reports
-
 📸 Screenshots → cypress/screenshots
 🎥 Videos → cypress/videos
-📑 HTML Reports → reports/
+
