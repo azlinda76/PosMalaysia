@@ -2,13 +2,13 @@
 Assignment
 
 🛠️ Installation
-# Clone the repository
+1. Clone the repository
 git clone https://github.com/azlinda76/
 
-# Navigate to project folder
+2. Navigate to project folder
 cd cypress-automation
 
-# Install dependencies
+3. Install dependencies
 npm install
 
 📂 Project Structure
@@ -24,13 +24,13 @@ cypress-automation/
 │── README.md            # Project documentation
 
 ▶️ Running Tests
-# Run all tests in headless mode
+1. Run all tests in headless mode
 npx cypress run
 
-# Run tests in interactive mode
+2. Run tests in interactive mode
 npx cypress open
 
-# Run specific test file
+3. Run specific test file
 npx cypress run --spec "cypress/e2e/calculaterate.cy.js"
 
 📊 Reports
